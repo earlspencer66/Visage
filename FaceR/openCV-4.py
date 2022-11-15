@@ -16,7 +16,7 @@ cam.set(cv2.CAP_PROP_FPS, 30)
 cam.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
 
 #setup facedetector
-faceCascade = cv2.CascadeClassifier('haar\haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('haar\haarcascade_frontalface_default.xmlclear')
 
 while True:
     Ignore, frame = cam.read()
