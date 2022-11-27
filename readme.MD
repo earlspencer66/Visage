@@ -1,1 +1,3 @@
 ## VISAGE
+### Abstract
+Visage is a face recognition device that will be used to monitor class attendance by generating digital class attendance records instead of students having to sign hardcopy sheets. Visage is therefore portable and is simple to mount in a class. The device comprises of a microcomputer and a raspberry pi camera. OpenCV is used to provide the models for detecting and recognizing faces. At this stage, a database of faces is yet to be created and our face recognition efficiency is at 60% based on the images of people (3 people) we have trained with.
